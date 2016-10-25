@@ -47,5 +47,6 @@ ResultSet result = stat.executeUpdate("SELECT * FROM Greeting");//查询数据�
 System.out.println(result.getString(1));//打印查询结果
 
 ```
-    
+推荐一个系统的教程：[http://www.yiibai.com/jdbc/jdbc_quick_guide.html](http://www.yiibai.com/jdbc/jdbc_quick_guide.html)
+
 #java jdbcTemplate
