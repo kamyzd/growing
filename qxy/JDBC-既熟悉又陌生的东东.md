@@ -49,4 +49,7 @@ System.out.println(result.getString(1));//打印查询结果
 ```
 推荐一个系统的教程：[http://www.yiibai.com/jdbc/jdbc_quick_guide.html](http://www.yiibai.com/jdbc/jdbc_quick_guide.html)
 
-#java jdbcTemplate
+#Spring jdbcTemplate
+它是 Spring 一个对JDBC通过模板封装来消除重复代码的工具类,它继承 JdbcAccessor 并实现了 JdbcOperations 接口
+
+详细讲解可以到[http://www.cnblogs.com/Fskjb/archive/2009/11/18/1605622.html](http://www.cnblogs.com/Fskjb/archive/2009/11/18/1605622.html),可能需要对spring有一定的了解。
